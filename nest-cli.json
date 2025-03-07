@@ -4,5 +4,25 @@
   "sourceRoot": "src",
   "compilerOptions": {
     "deleteOutDir": true
-  }
+  },
+
+"modules": [
+    {
+      "type": "app",
+      "class": "AppModule",
+      "path": "./app.module"
+    },
+    {
+      "type": "module",
+      "class": "instructor",
+      "path": "./instructor/instructor.module"
+    },
+    {
+      "type": "module",
+      "class": "question",
+      "path": "./question/question.module"
+    }
+  ]
+
+
 }
